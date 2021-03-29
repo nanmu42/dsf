@@ -43,7 +43,7 @@ listening on: http://::1:3000
 Gophers 可以这样安装：
 
 ```bash
-go install github.com/nanmu42/dsf
+go install github.com/nanmu42/dsf@latest
 ```
 
 使用愉快！

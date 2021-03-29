@@ -43,7 +43,7 @@ Precompiled binaries are available for Linux, Mac and Windows: https://github.co
 For gophers:
 
 ```bash
-go install github.com/nanmu42/dsf
+go install github.com/nanmu42/dsf@latest
 ```
 
 ## License
