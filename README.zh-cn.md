@@ -32,7 +32,7 @@ $ dsf
 listening on: http://127.0.0.1:8080
 listening on: http://::1:8080
 listening on: http://192.168.0.6:8080
-listening on: http://fe80::1234:1e11:abec:5678:8080~~~~
+listening on: http://fe80::1234:1e11:abec:5678:8080
 ```
 
 在特定端口分享特定目录：
@@ -41,8 +41,8 @@ listening on: http://fe80::1234:1e11:abec:5678:8080~~~~
 $ dsf -port 3000 -root ~/images
 listening on: http://127.0.0.1:3000
 listening on: http://::1:3000
-listening on: http://192.168.0.6:8080
-listening on: http://fe80::1234:1e11:abec:5678:8080
+listening on: http://192.168.0.6:3000
+listening on: http://fe80::1234:1e11:abec:5678:3000
 ```
 
 ## 安装

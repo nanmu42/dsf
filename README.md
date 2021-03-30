@@ -39,10 +39,10 @@ Serve a specific directory and listen on a desired port:
 
 ```bash
 $ dsf -port 3000 -root ~/images
-listening on: http://127.0.0.1:8080
-listening on: http://::1:8080
-listening on: http://192.168.0.6:8080
-listening on: http://fe80::1234:1e11:abec:5678:8080
+listening on: http://127.0.0.1:3000
+listening on: http://::1:3000
+listening on: http://192.168.0.6:3000
+listening on: http://fe80::1234:1e11:abec:5678:3000
 ```
 
 ## Installation
