@@ -7,7 +7,12 @@
 
 一个非常简单的HTTP文件服务，可以把本地的文件暴露到局域网上。
 
-虽然`python3 -m http.server`也能用，但是有时我没法接受它单线程一次只能服务一个文件的特性。
+## 动机
+
+虽然`python3 -m http.server`也能用，但是...
+
+* 有时我没法接受它单线程一次只能服务一个文件的特性；
+* `dsf` 提供复制粘贴友好的宿主机IP和端口号，这样我就不用自己去查询了。
 
 ## 用法
 
@@ -26,6 +31,8 @@ dsf 的用法:
 $ dsf
 listening on: http://127.0.0.1:8080
 listening on: http://::1:8080
+listening on: http://192.168.0.6:8080
+listening on: http://fe80::1234:1e11:abec:5678:8080~~~~
 ```
 
 在特定端口分享特定目录：
@@ -34,6 +41,8 @@ listening on: http://::1:8080
 $ dsf -port 3000 -root ~/images
 listening on: http://127.0.0.1:3000
 listening on: http://::1:3000
+listening on: http://192.168.0.6:8080
+listening on: http://fe80::1234:1e11:abec:5678:8080
 ```
 
 ## 安装
